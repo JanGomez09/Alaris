@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1"
         android:layout_width="280dp"
         android:layout_height="78dp"
         android:fontFamily="cursive"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.027" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="188dp"
         android:layout_height="70dp"
         android:fontFamily="cursive"
@@ -77,7 +77,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/back_ground2"
+        android:backgroundTint="#522E21"
         android:fontFamily="cursive"
+        android:foregroundTint="#522E21"
         android:text="Ingresar"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#532E21"

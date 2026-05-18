@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248765388702",
+    "project_id": "alaris-e005c",
+    "storage_bucket": "alaris-e005c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248765388702:android:a40e9106bc9a549449688f",
+        "android_client_info": {
+          "package_name": "com.example.alaris"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfMK69LD9UUh0ZcJGGNIm-aR2CjJoQOoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
