@@ -47,6 +47,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.098" />
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="90dp"
@@ -72,7 +73,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.633">
 
-        <TextView
+        0<TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="108dp"
@@ -85,31 +86,34 @@
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="51dp"
             android:ems="10"
             android:hint="Nombre del docente..."
             android:inputType="text"
             android:textColor="@color/white"
+            android:layout_marginBottom="30dp"
             android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/editTextText2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="51dp"
             android:ems="10"
             android:hint="Contraseña..."
             android:inputType="text"
             android:textColor="@color/white"
+            android:layout_marginBottom="30dp"
             android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/editTextText3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="51dp"
             android:ems="10"
             android:hint="Correo Institucional..."
             android:inputType="text"
             android:textColor="@color/white"
+            android:layout_marginBottom="30dp"
             android:textColorHint="@color/white" />
 
     </LinearLayout>
@@ -133,5 +137,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:strokeColor="#522E21" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
